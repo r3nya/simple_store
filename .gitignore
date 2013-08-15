@@ -80,3 +80,5 @@ pickle-email-*.html
 # Other
 *.keep
 
+
+log/development.log
