@@ -82,3 +82,6 @@ pickle-email-*.html
 
 
 log/development.log
+
+# C1nde няша
+db/development.sqlite3
