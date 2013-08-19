@@ -11,10 +11,17 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130819130631) do
+ActiveRecord::Schema.define(version: 20130819165713) do
 
   create_table "carts", force: true do |t|
     t.integer "user_id"
+  end
+
+  create_table "images", force: true do |t|
+    t.integer  "imageable_id"
+    t.string   "imageable_type"
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   create_table "items", force: true do |t|
